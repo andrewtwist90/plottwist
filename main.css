@@ -548,6 +548,7 @@ input:checked+.slider:before {
     .students{
         overflow: auto;
         white-space: nowrap;
+        margin-right: -0.8rem;
         
     }
 
