@@ -392,6 +392,51 @@ input:checked+.slider:before {
     border-radius: 50%
 }
 
+.hero-banner .hero-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+.hero-text {
+    text-align: center;
+
+}
+
+.hero-banner .hero-content {
+    background: linear-gradient(to bottom, transparent 40%, #011038 85%, #011038 95%);
+    bottom: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    padding: calc(1.6rem*2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero-banner {
+    background-position: center;
+    width:150%;
+    position: relative;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 1.6rem calc(1.6rem/2);
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    margin-top:1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-image: url("images/nasa_launch.jpg");
+}
+
 @media only screen and (max-width:812px) {
 
     .navigation{
