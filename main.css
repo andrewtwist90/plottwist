@@ -268,6 +268,7 @@ footer {
     font-size: 0.8rem;
     font-weight: 900;
   }
+
   .circle svg {
     fill: none;
     stroke: var(--svg-highlight-color-1);
@@ -299,6 +300,9 @@ footer {
     }
   }
   
+  .circle:hover{
+    cursor: pointer; }
+    }
 
 .theme-switch-wrapper {
     display: flex;
