@@ -545,7 +545,7 @@ input:checked+.slider:before {
     padding-top: 1rem;
     }
 
-    .navigation{
+    .students{
         overflow: auto;
         white-space: nowrap;
         
