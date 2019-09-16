@@ -443,7 +443,7 @@ input:checked+.slider:before {
     background-image: url("images/nasa_launch.jpg");
 }
 
-@media only screen and (max-width:812px) {
+@media only screen and (max-width:1024px) {
     .hero-banner {
         width: 100%;
         margin-left: 0;
