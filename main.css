@@ -442,7 +442,9 @@ input:checked+.slider:before {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        transform: none
+        transform: none;
+        height: 500px;
+        margin-top: 0rem;
     }
 }
 
