@@ -482,6 +482,12 @@ input:checked+.slider:before {
     right: 0;
 }
 
+.nav-buttons {
+    text-align: center;
+    display:none;
+    padding-top:0.5rem;
+}
+
 .hero-banner {
     background-position: center;
     width:150%;
@@ -554,6 +560,10 @@ input:checked+.slider:before {
 
     .js-modal-btn-1, .js-modal-btn-2 {
         padding-right: 1rem;
+    }
+
+    .nav-buttons {
+        display:block;
     }
 
 }
