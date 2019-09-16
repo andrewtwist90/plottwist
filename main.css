@@ -444,6 +444,11 @@ input:checked+.slider:before {
 }
 
 @media only screen and (max-width:1024px) {
+
+    .banner-contain {
+        max-width: 100%;
+    }
+
     .hero-banner {
         width: 100%;
         margin-left: 0;
