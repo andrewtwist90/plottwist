@@ -439,7 +439,7 @@ input:checked+.slider:before {
 
 @media only screen and (min-width:375px) and (max-width:812px) {
     .hero-banner {
-        max-width: 100%;
+        width: 100%;
         margin-left: 0;
         margin-right: 0;
         transform: none
