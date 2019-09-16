@@ -252,7 +252,7 @@ footer {
     padding: 1rem 1rem
 }
 
-.js-modal-btn {
+.js-modal-btn-1, .js-modal-btn-2 {
     background-color: none;
     border: none;
     display: inline-block;
