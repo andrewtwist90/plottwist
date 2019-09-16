@@ -456,6 +456,7 @@ input:checked+.slider:before {
         transform: none;
         height: 500px;
         margin-top: 0rem;
+        border-radius: 0px;
     }
 }
 
