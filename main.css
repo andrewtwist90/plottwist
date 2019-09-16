@@ -587,7 +587,7 @@ input:checked+.slider:before {
         pointer-events: none;
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0), snow 100%);
         height: 100%;
-        width: 10%;
+        width: 20%;
       }
 
     .js-modal-btn-1, .js-modal-btn-2 {
