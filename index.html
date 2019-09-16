@@ -3,6 +3,10 @@
 <head>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="css/modal-video.min.css">
 <script src="js/modal-video.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900&display=swap" rel="stylesheet">
@@ -83,7 +87,7 @@
                             </div>
                           </div>
                         </div></div>
-                        <div class="nav-buttons"><i class="fas fa-angle-left icon"></i>swipe to see more<i class="fas fa-angle-right icon"></i></div>
+                        <div class="nav-buttons"><i class="fas fa-angle-left icon" id="left-button"></i>swipe to see more<i class="fas fa-angle-right icon" id="right-button"></i></div>
     <hr class="clear" /> 
     <h2 style="margin-bottom:0rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="icons icon-30"><title>Untitled-2</title><path d="M45.75,25.75a20,20,0,1,1-20,20,20,20,0,0,1,20-20m0-5a25,25,0,1,0,25,25,25,25,0,0,0-25-25Z" transform="translate(-20.75 -20.75)" style="fill:var(--svg-highlight-color-1);"/><path d="M34.07,47.52l6.41,6.42a.29.29,0,0,0,.39,0L57.43,37.37" transform="translate(-20.75 -20.75)" style="fill:none;stroke:var(--svg-highlight-color-2);stroke-linecap:round;stroke-miterlimit:10;stroke-width:5px"/><path d="M654-94" transform="translate(-20.75 -20.75)" style="fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:10px"/><path d="M175.67,90.83" transform="translate(-20.75 -20.75)" style="fill:none;stroke:#e06;stroke-linecap:round;stroke-miterlimit:10;stroke-width:5px"/></svg>
     Hello</h2>  
@@ -141,6 +145,21 @@ Hello </h2>
     }
     
     toggleSwitch.addEventListener('change', switchTheme, false);
+        </script>
+        <script>
+         $('#right-button').click(function() {
+      event.preventDefault();
+      $('.students').animate({
+        scrollLeft: "+=200px"
+      }, "slow");
+   });
+   
+     $('#left-button').click(function() {
+      event.preventDefault();
+      $('.students').animate({
+        scrollLeft: "-=200px"
+      }, "slow");
+   });
         </script>
 </body>
 </html>

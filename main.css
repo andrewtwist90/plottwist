@@ -492,9 +492,10 @@ input:checked+.slider:before {
 }
 
 .nav-buttons .icon {
-    vertical-align: -7%;
+    vertical-align: -25%;
     color: #21D4FD;
     padding: 0rem 0.5rem;
+    font-size:2rem;
 }
 
 
