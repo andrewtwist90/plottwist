@@ -252,6 +252,12 @@ footer {
     padding: 1rem 1rem
 }
 
+.js-modal-btn {
+    background-color: none;
+    border: none;
+    display: inline-block;
+}
+
 .circle {
     position: relative;
     display: inline-block;
