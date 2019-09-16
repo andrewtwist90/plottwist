@@ -256,6 +256,11 @@ footer {
     background-color: none;
     border: none;
     display: inline-block;
+    color: var(--breadcrumbs-color);
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-align: center;
+    padding-right: 1.5rem;
 }
 
 .circle {
@@ -265,7 +270,7 @@ footer {
     height: 100px;
     text-align: center;
     color: var(--breadcrumbs-color);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 900;
   }
 
