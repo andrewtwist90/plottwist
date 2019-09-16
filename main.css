@@ -252,6 +252,47 @@ footer {
     padding: 1rem 1rem
 }
 
+.circle {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: var(--breadcrumbs-color);
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+  .circle svg {
+    fill: none;
+    stroke: var(--svg-highlight-color-1);
+    stroke-linecap: round;
+    stroke-width: 3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: stroke-draw 6s ease-out infinite alternate;
+  }
+  .circle img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    border-radius: 50%;
+    padding: 0 0 ;
+  }
+  @keyframes stroke-draw {
+    from {
+      stroke: var(--svg-highlight-color-1);
+      stroke-dasharray: 1;
+    }
+    to {
+      stroke: var(--svg-highlight-color-2);
+      transform: rotate(180deg);
+      stroke-dasharray: 8;
+    }
+  }
+  
+
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
