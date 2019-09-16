@@ -437,6 +437,14 @@ input:checked+.slider:before {
     background-image: url("images/nasa_launch.jpg");
 }
 
+@media only screen and (min-width:375px) and (max-width:812px) {
+    .hero-banner {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        transform: none
+    }
+
 @media only screen and (max-width:812px) {
 
     .navigation{
