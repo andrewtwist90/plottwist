@@ -1,10 +1,10 @@
 :root {
     --font-color: black;
     --bg-color: snow;
-    --svg-highlight-color-1: #B721FF;
-    --svg-highlight-color-2: #21D4FD;
+    --svg-highlight-color-1: #0066b3;
+    --svg-highlight-color-2: #00c0ff;
     --breadcrumbs-color: rgb(126, 126, 156);
-    --background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    --background-image: linear-gradient(19deg, #0189d3 0%, #00c0ff 100%);
 }
 
 [data-theme=dark] {
