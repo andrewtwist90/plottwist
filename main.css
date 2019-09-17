@@ -581,6 +581,7 @@ input:checked+.slider:before {
     .student-container{
         position: relative;
         margin-right:-0.8rem;
+        margin-left: -0.6rem;
         
     }
 
