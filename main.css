@@ -266,7 +266,7 @@ footer {
     font-size: 0.7rem;
     font-weight: 900;
     text-align: center;
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
 }
 
 .circle {
@@ -574,6 +574,10 @@ input:checked+.slider:before {
     .header {
     display: inherit;
     padding-top: 1rem;
+    }
+
+    .js-modal-btn-1, .js-modal-btn-2 {       
+        padding-right: 0.5rem;
     }
 
     .students{
