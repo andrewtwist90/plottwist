@@ -228,6 +228,12 @@ footer {
     justify-content: flex-start;
 }
 
+.faculty {
+    display: block;
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+}
+
 .navigation{
     padding: 0 0;
     margin-left: auto;  
@@ -260,7 +266,7 @@ footer {
     font-size: 0.7rem;
     font-weight: 900;
     text-align: center;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
 }
 
 .circle {
