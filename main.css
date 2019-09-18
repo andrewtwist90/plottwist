@@ -258,6 +258,25 @@ footer {
     padding: 1rem 1rem
 }
 
+.container-wide {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    padding: 1rem 1rem
+}
+
+.h2card i {
+    opacity: 0;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    vertical-align: -5%;
+    } 
+
+.h2card:hover i {
+opacity: 1;
+transform: translateX(10px);
+} 
+
 .js-modal-btn-1, .js-modal-btn-2 {
     background-color: none;
     border: none;
@@ -528,11 +547,11 @@ input:checked+.slider:before {
 }
 
 .card-shelf{
+    position: relative;
     overflow: auto;
     white-space: nowrap;
-    min-height:475px;
-    margin-left: -3rem;
-    margin-right: -5rem;
+    min-height:430px;
+    text-align: center;
 }
 
 .outer-card{
@@ -548,11 +567,12 @@ input:checked+.slider:before {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: left;
 }
 
 .card p {
     font-size: 0.8rem;
-    line-height: 1.6rem;
+    line-height: 1.2rem;
 }
 
 .card h2 {
@@ -594,6 +614,15 @@ input:checked+.slider:before {
         padding: 1.25rem 1.5rem 1.5rem;
 }
 
+.h2card {
+    text-decoration: none;
+    color: #333;
+}
+
+.h2card i {
+    color: var(--svg-highlight-color-2);
+}
+
 
 
 @media only screen and (max-width:1024px) {
@@ -626,6 +655,16 @@ input:checked+.slider:before {
         white-space: nowrap;
         padding-top: 0.5rem;
         
+    }
+
+    .container-wide {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .card-shelf {
+        margin-left: -1rem;
+        margin-right: 0rem;
     }
     
     .navigation li{
@@ -673,6 +712,19 @@ input:checked+.slider:before {
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0), snow 100%);
         height: 100%;
         width: 20%;
+      }
+
+      .card-shelf:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), snow 100%);
+        height: 100%;
+        width: 5%;
       }
 
     .nav-buttons {
