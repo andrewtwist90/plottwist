@@ -28,6 +28,10 @@ body {
     font-size: 18px;
 }
 
+.name {
+    font-size: 0.8rem;
+}
+
 .header svg {
     vertical-align: -15%;
 }
