@@ -488,6 +488,18 @@ input:checked+.slider:before {
     border-radius: 5px;
 }
 
+.hero-banner .hero-person {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    border-radius: 5px;
+    height: 600px;
+}
+
 .hero-text {
     text-align: center;
 
@@ -643,6 +655,10 @@ input:checked+.slider:before {
         height: 500px;
         margin-top: 0rem;
         border-radius: 0px;
+    }
+
+    .hero-banner .hero-person {
+        height: 500px;
     }
 
     .hero-banner .hero-content {

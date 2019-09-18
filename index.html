@@ -30,6 +30,23 @@
     </div>     
 </div><div class="banner-contain">
 <div class="hero-banner">
+    <div class="hero-person">
+        <img id="image" src="https://www.w3schools.com/css/img_fjords.jpg" style="width:400px">
+        <p></p>
+       
+        <script>
+          var imageSources = ["https://www.w3schools.com/css/img_fjords.jpg", "https://www.w3schools.com/howto/img_mountains.jpg"]
+    
+          var index = 0;
+          setInterval(function(){
+            if (index === imageSources.length) {
+              index = 0;
+            }
+            document.getElementById("image").src = imageSources[index];
+            index++;
+          }, 2000);
+        </script>
+    </div>
         <div class="hero-content">
             <div class="hero-text">
           <h1 style="margin-top:0rem;margin-bottom:0rem;">Clearing</h1>
