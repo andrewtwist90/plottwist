@@ -17,6 +17,14 @@
 
 }
 
+.menu-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 38rem;
+  padding: 2rem 2rem;
+
+  }
+
 html {
     font: 120%/1.75 Helvetica, Georgia, serif;
     color: var(--font-color);
@@ -229,6 +237,7 @@ footer {
 }
 
 .logo {
+    display: inline-flex;
     justify-content: flex-start;
 }
 
@@ -242,13 +251,13 @@ footer {
     padding: 0 0;
     margin-left: auto;  
     justify-content: flex-end;
+    z-index: 1001;
 }
 
 .navigation li{
-    display: inline-block;
     margin-left: 2rem;
     color: #fff;
-    font-weight:700;
+    font-size: 0.9rem;
 }
 
 .header a {
@@ -639,6 +648,12 @@ input:checked+.slider:before {
     color: var(--svg-highlight-color-2);
 }
 
+.overlay-menu ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0.5rem;
+
+}
 
 
 @media only screen and (max-width:1024px) {
@@ -671,10 +686,22 @@ input:checked+.slider:before {
     .navigation{
         margin-top:0px;
         margin-bottom: 0px;
-        overflow: auto;
-        white-space: nowrap;
         padding-top: 0.5rem;
+        display: flex;
         
+    }
+
+    .overlay-menu {
+        padding-top:3rem;
+    }
+
+    .overlay-menu ul {
+        display: block;
+  
+    }
+
+    .menu-container {
+        padding: 0.5rem 0.5rem;
     }
 
     .container-wide {
@@ -688,7 +715,7 @@ input:checked+.slider:before {
     }
     
     .navigation li{
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
 
     .navigation li:first-child{
@@ -700,7 +727,6 @@ input:checked+.slider:before {
     }
 
     .header {
-    display: inherit;
     padding-top: 1rem;
     }
 
@@ -739,3 +765,92 @@ input:checked+.slider:before {
     }
 
 }
+
+.button_container {
+    font-family: 'Helvetica';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity .25s ease;
+    justify-content: flex-end;
+    z-index: 6;
+    position: relative;
+  
+  }
+  .button_container:hover {
+    opacity: .7;
+  }
+  .button_container.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #FFF;
+  }
+  .button_container.active .middle {
+    opacity: 0;
+    background: #FFF;
+  }
+  .button_container.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #FFF;
+  }
+  .button_container span {
+    background: #1abc9c;
+    border: none;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .35s ease;
+    cursor: pointer;
+  }
+  .button_container span:nth-of-type(2) {
+    top: 11px;
+  }
+  .button_container span:nth-of-type(3) {
+    top: 22px;
+  }
+  
+
+  .overlay-menu li a {
+      line-height: 1.4rem;
+
+  }
+
+  .overlay-menu li a {
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Helvetica';
+
+  }
+  
+  .overlay {
+    position: fixed;
+    background: #242629;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    z-index: 5;
+  }
+  .overlay.open {
+    opacity: .95;
+    visibility: visible;
+    height: 100%;
+    z-index: 5;
+  
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      left: 20%;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+  }
