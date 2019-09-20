@@ -1,8 +1,8 @@
 :root {
     --font-color: black;
     --bg-color: snow;
-    --svg-highlight-color-1: #0066b3;
-    --svg-highlight-color-2: #00c0ff;
+    --svg-highlight-color-1: hsl(206, 100%, 35%);
+    --svg-highlight-color-2: #009FFD;
     --breadcrumbs-color: rgb(126, 126, 156);
     --background-image: linear-gradient(19deg, #0189d3 0%, #00c0ff 100%);
 }
@@ -808,6 +808,11 @@ input:checked+.slider:before {
         padding-top: 0.5rem;
         display: flex;
         
+    }
+
+    .icon-400 {
+        width:200px;
+        margin-bottom:1rem;
     }
 
     .overlay-menu {
