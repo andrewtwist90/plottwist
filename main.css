@@ -740,10 +740,6 @@ input:checked+.slider:before {
         
     }
 
-    .thumbnail-shelf {
-        margin-right: -1rem;
-    }
-
     .overlay-menu {
         padding-top:3rem;
     }
