@@ -39,8 +39,8 @@
 }
 
 .thumbnail-shelf {
-    overflow: auto;
     white-space: nowrap;
+    overflow: auto;
 }
 
 .media-circle {
@@ -123,6 +123,12 @@ img {
 
 h2 svg {
     vertical-align: -8%;
+}
+
+h3 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    line-height: 1.2rem;
 }
 
 h3 a {
@@ -629,7 +635,6 @@ input:checked+.slider:before {
 #cta-banner {
     background-color: #333; /* Black background color */
     color: #fff;
-    font-weight: 700;
     position: fixed; /* Make it stick/fixed */
     bottom: -100px; /* Hide the navbar 50 px outside of the top view */
     height: 100px;
@@ -638,11 +643,15 @@ input:checked+.slider:before {
     z-index: 2000;
   }
 
+  #cta-banner p {
+    font-size: 0.8rem;
+  }
+
   .cta-banner-content {
     max-width: 38rem;
     margin-left:auto;
     margin-right:auto;
-    padding-top: 2rem;
+    padding: 1rem 1rem;
   }
 
 .outer-card{
