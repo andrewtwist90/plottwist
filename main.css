@@ -318,6 +318,13 @@ footer {
     padding: 1rem 1rem
 }
 
+.container-tour {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 52rem;
+    padding: 1rem 1rem
+}
+
 .h2card i {
     opacity: 0;
     -webkit-transition: 0.6s ease;
@@ -742,6 +749,10 @@ input:checked+.slider:before {
 
     .overlay-menu {
         padding-top:3rem;
+    }
+
+    .thumbnail-shelf{
+        margin-right: -1rem;
     }
 
     .overlay-menu ul {
