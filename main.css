@@ -636,8 +636,8 @@ input:checked+.slider:before {
     background-color: #333; /* Black background color */
     color: #fff;
     position: fixed; /* Make it stick/fixed */
-    bottom: -100px; /* Hide the navbar 50 px outside of the top view */
-    height: 100px;
+    bottom: -150px; /* Hide the navbar 50 px outside of the top view */
+    height: 150px;
     width: 100%; /* Full width */
     transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 2000;
@@ -645,6 +645,23 @@ input:checked+.slider:before {
 
   #cta-banner p {
     font-size: 0.8rem;
+  }
+
+  #cta-banner button {
+    font-size: 0.9rem;
+    vertical-align: top;
+    margin: 0.3rem 0rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
   .cta-banner-content {
