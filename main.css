@@ -626,6 +626,23 @@ input:checked+.slider:before {
     text-align: center;
 }
 
+#cta-banner {
+    background-color: #333; /* Black background color */
+    color: #fff;
+    position: fixed; /* Make it stick/fixed */
+    bottom: -200px; /* Hide the navbar 50 px outside of the top view */
+    height: 200px;
+    width: 100%; /* Full width */
+    transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
+  }
+
+  .cta-banner-content {
+    max-width: 38rem;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 2rem;
+  }
+
 .outer-card{
     margin-left: 1rem;
     margin-right: 0.5rem;
