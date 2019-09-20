@@ -220,6 +220,11 @@ Hello </h2>
           } else {
             document.getElementById("cta-banner").style.bottom = "-200px";
           }
+          if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
+            document.getElementById("cta-banner").style.bottom = "-200px";
+          } else {
+            document.getElementById("cta-banner").style.bottom = "0";
+          }
         }</script>
 <div class="foot"><footer>© 2019, stay positive <i class="fas fa-infinity icon fa-rotate-45"></i></footer></div>
 <script>

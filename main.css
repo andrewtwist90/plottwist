@@ -629,6 +629,7 @@ input:checked+.slider:before {
 #cta-banner {
     background-color: #333; /* Black background color */
     color: #fff;
+    font-weight: 700;
     position: fixed; /* Make it stick/fixed */
     bottom: -200px; /* Hide the navbar 50 px outside of the top view */
     height: 200px;
