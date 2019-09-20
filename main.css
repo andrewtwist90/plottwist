@@ -47,6 +47,14 @@
     display: inline-block;
     width: 200px;
     padding-right: 0.5rem;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.media-circle:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
 }
 
 .video-container iframe {
@@ -651,6 +659,14 @@ input:checked+.slider:before {
 .card-image img {
     max-width: 300px;
     padding-top:0px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.card-image img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .card-main {
