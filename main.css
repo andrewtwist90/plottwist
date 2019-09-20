@@ -290,6 +290,11 @@ footer {
     width:128px;
 }
 
+.icon-400 {
+    width:400px;
+    margin-bottom:1rem;
+}
+
 .header {
     margin-left: auto;
     margin-right: auto;
