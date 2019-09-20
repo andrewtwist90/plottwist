@@ -215,15 +215,10 @@ Hello </h2>
         window.onscroll = function() {scrollFunction()};
         
         function scrollFunction() {
-          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+          if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
             document.getElementById("cta-banner").style.bottom = "0";
           } else {
-            document.getElementById("cta-banner").style.bottom = "-200px";
-          }
-          if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
-            document.getElementById("cta-banner").style.bottom = "-200px";
-          } else {
-            document.getElementById("cta-banner").style.bottom = "0";
+            document.getElementById("cta-banner").style.bottom = "-100px";
           }
         }</script>
 <div class="foot"><footer>© 2019, stay positive <i class="fas fa-infinity icon fa-rotate-45"></i></footer></div>
