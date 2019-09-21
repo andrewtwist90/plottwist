@@ -660,7 +660,7 @@ input:checked+.slider:before {
     background-color: #333; /* Black background color */
     color: #fff;
     position: fixed; /* Make it stick/fixed */
-    bottom: -150px; /* Hide the navbar 50 px outside of the top view */
+    bottom: 0px; /* Hide the navbar 50 px outside of the top view */
     height: 150px;
     width: 100%; /* Full width */
     transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
