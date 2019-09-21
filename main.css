@@ -603,6 +603,12 @@ input:checked+.slider:before {
     right: 0;
 }
 
+#close-cta {
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+}
+
 .nav-buttons {
     text-align: center;
     display:none;
