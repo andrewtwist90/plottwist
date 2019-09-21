@@ -614,8 +614,8 @@ input:checked+.slider:before {
 
 .nav-buttons .icon {
     vertical-align: -25%;
-    color: #21D4FD;
-    padding: 0rem 3rem;
+    color: #009FFD;
+    padding: 0rem 2rem;
     font-size:2rem;
 }
 
@@ -663,6 +663,14 @@ input:checked+.slider:before {
 
   #cta-banner p {
     font-size: 0.8rem;
+  }
+
+  .section-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      color: #009FFD;
   }
 
   #cta-banner button {
