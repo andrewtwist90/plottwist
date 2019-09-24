@@ -812,7 +812,7 @@ input:checked+.slider:before {
     }
 
     .hero-banner .hero-person {
-        height: 500px;
+        height: 400px;
     }
 
     .hero-banner .hero-content {
@@ -828,6 +828,15 @@ input:checked+.slider:before {
         padding-top: 0.5rem;
         display: flex;
         
+    }
+
+    .hero-banner, .hero-person {
+        height: 400px;
+    }
+
+    .hero-banner .hero-content {
+        padding: 1rem;
+        max-height: 400px;
     }
 
     .icon-400 {
