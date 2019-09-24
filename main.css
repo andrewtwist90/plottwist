@@ -963,7 +963,10 @@ h1.colour{
     }
 
     .header {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left:0.5rem;
+    padding-right:1rem;
+    padding-bottom:0rem;
     }
 
     .js-modal-btn-1, .js-modal-btn-2 {       
