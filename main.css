@@ -162,6 +162,14 @@ p.intro {
     opacity: 0.75;
 }
 
+p.intro-lead {
+    font-size:1.1rem;
+    font-weight: 300;
+    margin: 0.5rem 0rem; 
+    opacity: 0.75;
+    padding-top:1rem;
+}
+
 hr {
     opacity: 0.5;
 }
@@ -844,6 +852,10 @@ input:checked+.slider:before {
         padding-top: 0.5rem;
         display: flex;
         
+    }
+
+    p.intro-lead {
+        padding-top:0rem;
     }
 
     .colour-row {
