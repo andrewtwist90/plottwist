@@ -866,6 +866,10 @@ h1.colour{
     html {
         text-align: left;
     }
+
+    .foot {
+        padding-left: 1rem;
+    }
     
 
     .student-container{
