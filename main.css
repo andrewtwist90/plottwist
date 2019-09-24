@@ -849,6 +849,10 @@ h1.colour{
         height: 400px;
     }
 
+    .hero-banner .hero-person #image {
+        width: 400px !important;
+    }
+
     .hero-banner .hero-content {
         border-radius: 0px;
     }
