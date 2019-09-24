@@ -68,6 +68,7 @@
 html {
     font: 120%/1.75 Helvetica, Georgia, serif;
     color: var(--font-color);
+    text-align: center;
 }
 
 body {
@@ -649,11 +650,6 @@ input:checked+.slider:before {
     font-size:2rem;
 }
 
-.student-container{
-    margin-left: -0.6rem;
-    
-}
-
 .hero-banner {
     background-position: center;
     width:150%;
@@ -689,6 +685,7 @@ input:checked+.slider:before {
     width: 100%; /* Full width */
     transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 2000;
+    text-align: left;
   }
 
   .cta-image {
@@ -825,6 +822,11 @@ h1.colour{
 
 }
 
+.student-container{
+    margin-left: 1.5rem;
+    
+}
+
 
 @media only screen and (max-width:1024px) {
 
@@ -858,6 +860,16 @@ h1.colour{
         margin-bottom: 0px;
         padding-top: 0.5rem;
         display: flex;
+        
+    }
+
+    html {
+        text-align: left;
+    }
+    
+
+    .student-container{
+        margin-left: -0.6rem;
         
     }
 
