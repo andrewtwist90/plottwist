@@ -758,6 +758,13 @@ input:checked+.slider:before {
     font-size: 1.2rem;
 }
 
+h1.colour{
+    color: #fff;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:-0.5rem;
+}
+
 .card-image {
     position: relative;
     overflow: hidden;
@@ -854,17 +861,25 @@ input:checked+.slider:before {
         
     }
 
+    h1.colour{
+        color: #fff;
+        text-align:left;
+        text-transform:uppercase;
+        margin-bottom:1rem;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    hr.thick {
+       display:none;
+    }
+
     p.intro-lead {
         padding-top:0rem;
     }
 
     .colour-row {
         padding: 0;
-    }
-
-    h1 { 
-        font-size: 1.4rem;
-        line-height: 1.8rem;
     }
 
     .card {
