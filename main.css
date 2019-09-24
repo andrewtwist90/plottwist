@@ -667,6 +667,12 @@ input:checked+.slider:before {
     z-index: 2000;
   }
 
+  .cta-image {
+      float: right;
+      margin-top:-15%;
+      padding: 2rem 0rem;
+  }
+
   #cta-banner p {
     font-size: 0.8rem;
   }
