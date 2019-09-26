@@ -84,6 +84,24 @@ hr.thick {
     
 }
 
+.thumbnail-container{
+    position: relative;
+    
+}
+
+.thumbnail-container:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), snow 100%);
+    height: 100%;
+    width: 10%;
+  }
+
 /* Text stuff */
 
 h1 svg {
