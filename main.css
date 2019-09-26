@@ -883,6 +883,12 @@ img {
         
     }
 
+    .thumbnail-container{
+        position: relative;
+        margin-right:-1rem;
+        
+    }
+
     .student-container:after {
         content: "";
         position: absolute;
