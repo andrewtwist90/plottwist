@@ -179,6 +179,11 @@ p.intro-lead {
     padding-top:1rem;
 }
 
+.thick {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+}
+
 /* Icons */
 
 .icons {
@@ -510,6 +515,13 @@ img {
     vertical-align:-12%
 }
 
+
+.level {
+    display: block;
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+    margin-bottom:0.3rem;
+}
 
 .faculty {
     display: block;
