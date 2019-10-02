@@ -838,6 +838,10 @@ img {
         
     }
 
+    .world-class {
+        max-width: 100%;
+    }
+
     html {
         text-align: left;
     }
